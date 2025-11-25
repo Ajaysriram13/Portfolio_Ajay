@@ -48,8 +48,11 @@ const Hero = () => {
                     <Link to="projects" smooth={true} duration={500} offset={-80}>
                         <button className="btn-primary">View Projects</button>
                     </Link>
-                    <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+                    <a href="/resume.pdf" download="Ajaysriram_Resume.pdf">
                         <button className="btn-secondary">Download Resume</button>
+                    </a>
+                    <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+                        <button className="btn-secondary">View Resume</button>
                     </a>
                 </motion.div>
             </div>
