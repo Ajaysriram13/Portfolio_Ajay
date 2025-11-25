@@ -34,7 +34,6 @@
     width: max-content;
     animation: scroll 30s linear infinite;
     padding-left: 40px;
-    /* Initial offset */
 }
 
 .tech-item {
@@ -61,10 +60,21 @@
 
     100% {
         transform: translateX(calc(-50% - 20px));
-        /* Adjust for gap */
     }
 }
 
 .marquee-content:hover {
     animation-play-state: paused;
+}
+
+@media screen and (max-width: 768px) {
+    .marquee-container {
+        padding: 20px 0;
+        margin-bottom: 2rem;
+    }
+
+    .tech-item {
+        font-size: 1rem;
+        padding: 8px 15px;
+    }
 }

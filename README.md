@@ -1,16 +1,71 @@
-# React + Vite
+# Ajaysriram R - Premium React Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, futuristic, and premium portfolio website built for **Ajaysriram R**, a Full Stack Developer specializing in scalable web applications. This project showcases a neon-themed, glassmorphic design with smooth animations and a responsive layout.
 
-Currently, two official plugins are available:
+![Portfolio Preview](https://via.placeholder.com/800x400/050505/00E5FF?text=Portfolio+Preview)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+-   **Futuristic Design**: Dark neon theme (`#00E5FF`) with glassmorphism effects.
+-   **Smooth Animations**: Powered by **Framer Motion** for entrance and hover effects.
+-   **Responsive Layout**: Fully optimized for mobile, tablet, and desktop.
+-   **Interactive Components**:
+    -   **Hero Section**: Floating stats and dynamic text.
+    -   **Tech Marquee**: Infinite scrolling tech stack.
+    -   **Featured Projects**: Glass cards with hover lift and "Open Project" overlays.
+    -   **Skills Section**: Categorized skills with animated icons.
+    -   **Contact Form**: Functional-looking form with neon inputs.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
 
-## Expanding the ESLint configuration
+-   **Frontend**: React.js (Vite)
+-   **Styling**: Vanilla CSS (Variables, Flexbox, Grid)
+-   **Animations**: Framer Motion
+-   **Icons**: React Icons (FontAwesome, etc.)
+-   **Navigation**: React Scroll
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📦 Installation & Run
+
+1.  **Clone the repository**:
+    ```bash
+    git clone https://github.com/Ajaysriram13/Portfolio_Ajay.git
+    cd Portfolio_Ajay
+    ```
+
+2.  **Install dependencies**:
+    ```bash
+    npm install
+    ```
+
+3.  **Start the development server**:
+    ```bash
+    npm run dev
+    ```
+
+4.  **Build for production**:
+    ```bash
+    npm run build
+    ```
+
+## 📂 Project Structure
+
+```
+src/
+├── assets/          # Images and static assets
+├── components/      # Reusable React components (Navbar, Hero, etc.)
+├── styles/          # Global styles (optional)
+├── App.jsx          # Main application layout
+├── index.css        # Global CSS variables and resets
+└── main.jsx         # Entry point
+```
+
+## 📬 Contact
+
+-   **Name**: Ajaysriram R
+-   **Email**: ajaysriram16@gmail.com
+-   **LinkedIn**: [Ajaysriram R](https://www.linkedin.com/in/ajaysriram-r/)
+-   **GitHub**: [Ajaysriram13](https://github.com/Ajaysriram13)
+
+---
+
+© 2025 Ajaysriram R. All rights reserved.

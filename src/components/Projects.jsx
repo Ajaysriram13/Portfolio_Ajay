@@ -26,7 +26,7 @@ const Projects = () => {
             desc: 'AI-based chat + voice assistant for railway inquiries with live PNR status and train schedules.',
             metrics: 'Instant AI responses, Streaming data',
             link: '',
-            image: 'https://images.unsplash.com/photo-1474487548417-781cb714c2f0?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+            image: 'https://images.unsplash.com/photo-1535535112387-56ffe8db21ff?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
             isPrivate: true
         },
         {

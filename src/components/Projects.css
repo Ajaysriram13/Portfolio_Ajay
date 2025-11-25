@@ -20,6 +20,7 @@
     transition: all 0.3s ease;
     display: flex;
     flex-direction: column;
+    height: 100%;
 }
 
 .project-card:hover {
@@ -151,4 +152,18 @@
     display: flex;
     align-items: center;
     gap: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .projects {
+        padding: 60px 0;
+    }
+
+    .projects-grid {
+        gap: 20px;
+        /* Ensure it goes to 1 column on small screens if needed, 
+           but auto-fit minmax(300px) usually handles it. 
+           We can force it if desired. */
+        grid-template-columns: 1fr;
+    }
 }
