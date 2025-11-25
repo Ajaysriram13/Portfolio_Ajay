@@ -51,9 +51,9 @@ const Hero = () => {
                     <a href="/resume.pdf" download="Ajaysriram_Resume.pdf">
                         <button className="btn-secondary">Download Resume</button>
                     </a>
-                    <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+                    {/* <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
                         <button className="btn-secondary">View Resume</button>
-                    </a>
+                    </a> */}
                 </motion.div>
             </div>
 
